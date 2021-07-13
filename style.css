@@ -118,3 +118,52 @@ body{
 }
 
 /* End All Players Add  */
+
+/* Start upcoming-match  */
+
+.match-raper{
+    margin-top: 60px;
+}
+
+.match-raper h2{
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    font-size: 35px;
+
+}
+
+.upcoming-match{
+    background-image: url(images/1.jpg);
+    background-position: center;
+}
+
+.match-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    display: flex;
+    width: 650px;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.info{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.info h4{
+    margin-top: 0px;
+}
+
+.info h3{
+    color: #fd6601;
+    font-size: 25px;
+}
+
+/* End upcoming-match  */
