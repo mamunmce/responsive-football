@@ -167,3 +167,30 @@ body{
 }
 
 /* End upcoming-match  */
+
+ /* Start Match Gallery  */
+
+
+#match-gallery{
+     margin: auto;
+     font-size: 40px; 
+     color: #2D25A0;
+     border-bottom: 3px solid #fa03bc;
+     width: 290px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
+
+.gallerys-raper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sengel-player img{
+    width:330px;
+    margin-bottom: 12px;
+    box-shadow: 1px 1px 8px 2px #6e5eae;
+
+}
+
+ /* End Match Gallery  */
