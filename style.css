@@ -194,3 +194,28 @@ body{
 }
 
  /* End Match Gallery  */
+
+ /* Footer Start  */
+
+ .footer-div{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ .footer-div img{
+    width: 480px;
+ }
+
+ .bgcolor{
+     background: #e2e2e2;
+     padding: 5px;
+     border-radius: 50%;
+     color: #7f828d;
+     margin-right: 14px;
+     margin-bottom: 20px;
+     margin-top: 10px;
+ }
+
+ /* Footer End  */
