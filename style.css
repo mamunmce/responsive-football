@@ -209,7 +209,7 @@ body{
  }
 
  .bgcolor{
-     background: #e2e2e2;
+     background: #ebe9e9;
      padding: 5px;
      border-radius: 50%;
      color: #7f828d;
@@ -219,3 +219,86 @@ body{
  }
 
  /* Footer End  */
+
+ /* Only Mobile Scine media query  Add*/
+
+@media only screen and (max-width: 688px) {
+    .top-header{
+        width: 100%;
+    }
+
+    .contener{
+        width:90%;
+    }
+
+    .heading-info{
+        width: 365px;
+    }
+
+    .heading-info h1 {
+        font-size: 40px;
+        line-height: 50px;
+        width: 300px;
+        margin-right: 0px;
+    }
+
+   .all-raps{
+    display:grid;
+   }
+
+   .header-banner img{
+    width: 360px;
+    height: 259px;
+    margin-top: 50px;
+   }
+
+   .top-header {
+    padding-top: 0px;
+    padding-bottom: 50px;
+   }
+
+   .all-players{
+       display: grid;
+       grid-template-columns: 1fr;
+   }
+
+   .match-info{
+       display: grid;
+       grid-template-columns: 1fr;
+       display: flex;
+       flex-direction: column;
+       width: 0px;
+   }
+
+   .gallerys-raper{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+
+    #match-gallery{
+        text-align: center;
+    }
+
+    .contener-section{
+        width: 0px;
+        margin: 0%;
+        margin-left: 10%;
+    }
+    .add-contan{
+        margin-left: 10%;
+    }
+
+    .info{
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .footer-div img{
+        width:150px;
+    }    
+    .footer-div{
+        width:auto;
+    }
+
+}
+
+/* Only Mobile Scine media query  End  */
