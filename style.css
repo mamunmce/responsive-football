@@ -232,7 +232,7 @@ body{
     }
 
     .heading-info{
-        width: 365px;
+        width: 350px;
     }
 
     .heading-info h1 {
@@ -247,7 +247,7 @@ body{
    }
 
    .header-banner img{
-    width: 360px;
+    width: 340px;
     height: 259px;
     margin-top: 50px;
    }
@@ -282,10 +282,10 @@ body{
     .contener-section{
         width: 0px;
         margin: 0%;
-        margin-left: 10%;
+        margin-left: 6%;
     }
     .add-contan{
-        margin-left: 10%;
+        margin-left: 6%;
     }
 
     .info{
@@ -299,6 +299,100 @@ body{
         width:auto;
     }
 
+    .live-fb:hover{
+        background: white;
+        cursor: pointer;
+        color:red; 
+    } 
+
 }
 
 /* Only Mobile Scine media query  End  */
+
+/* Only pad Scine media query  start  */
+
+@media only screen and (min-width:688px) and (max-width:992px){
+    
+    .top-header{
+        width: 100%;
+    }
+
+    .contener{
+        width:90%;
+    }
+    .heading-info{
+        width: 365px;
+    }
+
+    .heading-info h1 {
+        font-size: 40px;
+        line-height: 50px;
+        width: 300px;
+        margin-right: 0px;
+    }
+
+   .header-banner img{
+    width: 360px;
+    height: 259px;
+    margin-top: 50px;
+   }
+
+   .top-header {
+    padding-top: 0px;
+    padding-bottom: 50px;
+   }
+
+   .all-players{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+   }
+
+   .match-info{
+       grid-template-columns: 1fr 1fr;
+   }
+
+   .gallerys-raper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+
+    #match-gallery{
+        text-align: center;
+    }
+
+    .contener-section{
+        width: 0px;
+        margin: 0%;
+        margin-left: 5%;
+    }
+    .add-contan{
+        margin-left: 5%;
+        display: grid;
+    }
+
+    .info{
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .footer-div img{
+        width:200px;
+        margin-bottom: 20px;
+    }    
+    .footer-div{
+        width:auto;
+    }
+
+    .sengel-player img{
+        margin: bottom 10px;
+        margin-right: 18px;
+    }
+
+    .live-fb:hover{
+        background: white;
+        cursor: pointer;
+        color:red; 
+    } 
+
+} 
+
+/* Only pad Scine media query  End  */
